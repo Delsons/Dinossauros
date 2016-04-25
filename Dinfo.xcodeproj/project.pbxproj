@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		34E133C61CC91DD7009E3085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E133C51CC91DD7009E3085 /* AppDelegate.swift */; };
-		34E133C81CC91DD7009E3085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E133C71CC91DD7009E3085 /* ViewController.swift */; };
 		34E133CB1CC91DD7009E3085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E133C91CC91DD7009E3085 /* Main.storyboard */; };
 		34E133CD1CC91DD7009E3085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E133CC1CC91DD7009E3085 /* Assets.xcassets */; };
 		34E133D01CC91DD7009E3085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E133CE1CC91DD7009E3085 /* LaunchScreen.storyboard */; };
+		34E133DA1CC91E53009E3085 /* EraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E133D91CC91E53009E3085 /* EraTableViewController.swift */; };
+		34E133DC1CC91E6B009E3085 /* EraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E133DB1CC91E6B009E3085 /* EraTableViewCell.swift */; };
+		34E133EE1CCA7248009E3085 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34E133E91CCA7248009E3085 /* OpenSans-Bold.ttf */; };
+		34E133EF1CCA7248009E3085 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34E133EA1CCA7248009E3085 /* OpenSans-ExtraBold.ttf */; };
+		34E133F01CCA7248009E3085 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34E133EB1CCA7248009E3085 /* OpenSans-Italic.ttf */; };
+		34E133F11CCA7248009E3085 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34E133EC1CCA7248009E3085 /* OpenSans-Regular.ttf */; };
+		34E133F21CCA7248009E3085 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34E133ED1CCA7248009E3085 /* OpenSans-Semibold.ttf */; };
+		34E133F61CCAA00F009E3085 /* DinoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E133F51CCAA00F009E3085 /* DinoTableViewController.swift */; };
+		34E133F81CCAAF96009E3085 /* DinoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E133F71CCAAF96009E3085 /* DinoTableViewCell.swift */; };
+		34E133FA1CCABDB6009E3085 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E133F91CCABDB6009E3085 /* DetailTableViewController.swift */; };
+		34E133FC1CCABE0D009E3085 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E133FB1CCABE0D009E3085 /* DetailTableViewCell.swift */; };
+		34E133FE1CCC4D65009E3085 /* dinossauros.json in Resources */ = {isa = PBXBuildFile; fileRef = 34E133FD1CCC4D65009E3085 /* dinossauros.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34E133C21CC91DD7009E3085 /* Dinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E133C51CC91DD7009E3085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34E133C71CC91DD7009E3085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34E133CA1CC91DD7009E3085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34E133CC1CC91DD7009E3085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E133CF1CC91DD7009E3085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34E133D11CC91DD7009E3085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E133D91CC91E53009E3085 /* EraTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EraTableViewController.swift; sourceTree = "<group>"; };
+		34E133DB1CC91E6B009E3085 /* EraTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EraTableViewCell.swift; sourceTree = "<group>"; };
+		34E133E91CCA7248009E3085 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		34E133EA1CCA7248009E3085 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		34E133EB1CCA7248009E3085 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		34E133EC1CCA7248009E3085 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		34E133ED1CCA7248009E3085 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		34E133F51CCAA00F009E3085 /* DinoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinoTableViewController.swift; sourceTree = "<group>"; };
+		34E133F71CCAAF96009E3085 /* DinoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinoTableViewCell.swift; sourceTree = "<group>"; };
+		34E133F91CCABDB6009E3085 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		34E133FB1CCABE0D009E3085 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		34E133FD1CCC4D65009E3085 /* dinossauros.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dinossauros.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,33 @@
 		34E133C41CC91DD7009E3085 /* Dinfo */ = {
 			isa = PBXGroup;
 			children = (
+				34E133E81CCA7248009E3085 /* fontes */,
 				34E133C51CC91DD7009E3085 /* AppDelegate.swift */,
-				34E133C71CC91DD7009E3085 /* ViewController.swift */,
 				34E133C91CC91DD7009E3085 /* Main.storyboard */,
+				34E133D91CC91E53009E3085 /* EraTableViewController.swift */,
+				34E133F51CCAA00F009E3085 /* DinoTableViewController.swift */,
+				34E133F91CCABDB6009E3085 /* DetailTableViewController.swift */,
+				34E133F71CCAAF96009E3085 /* DinoTableViewCell.swift */,
+				34E133DB1CC91E6B009E3085 /* EraTableViewCell.swift */,
+				34E133FB1CCABE0D009E3085 /* DetailTableViewCell.swift */,
 				34E133CC1CC91DD7009E3085 /* Assets.xcassets */,
 				34E133CE1CC91DD7009E3085 /* LaunchScreen.storyboard */,
 				34E133D11CC91DD7009E3085 /* Info.plist */,
+				34E133FD1CCC4D65009E3085 /* dinossauros.json */,
 			);
 			path = Dinfo;
+			sourceTree = "<group>";
+		};
+		34E133E81CCA7248009E3085 /* fontes */ = {
+			isa = PBXGroup;
+			children = (
+				34E133E91CCA7248009E3085 /* OpenSans-Bold.ttf */,
+				34E133EA1CCA7248009E3085 /* OpenSans-ExtraBold.ttf */,
+				34E133EB1CCA7248009E3085 /* OpenSans-Italic.ttf */,
+				34E133EC1CCA7248009E3085 /* OpenSans-Regular.ttf */,
+				34E133ED1CCA7248009E3085 /* OpenSans-Semibold.ttf */,
+			);
+			path = fontes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +165,13 @@
 			files = (
 				34E133D01CC91DD7009E3085 /* LaunchScreen.storyboard in Resources */,
 				34E133CD1CC91DD7009E3085 /* Assets.xcassets in Resources */,
+				34E133EE1CCA7248009E3085 /* OpenSans-Bold.ttf in Resources */,
+				34E133F11CCA7248009E3085 /* OpenSans-Regular.ttf in Resources */,
+				34E133FE1CCC4D65009E3085 /* dinossauros.json in Resources */,
+				34E133F21CCA7248009E3085 /* OpenSans-Semibold.ttf in Resources */,
+				34E133F01CCA7248009E3085 /* OpenSans-Italic.ttf in Resources */,
 				34E133CB1CC91DD7009E3085 /* Main.storyboard in Resources */,
+				34E133EF1CCA7248009E3085 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E133C81CC91DD7009E3085 /* ViewController.swift in Sources */,
+				34E133FA1CCABDB6009E3085 /* DetailTableViewController.swift in Sources */,
+				34E133F81CCAAF96009E3085 /* DinoTableViewCell.swift in Sources */,
+				34E133FC1CCABE0D009E3085 /* DetailTableViewCell.swift in Sources */,
+				34E133DC1CC91E6B009E3085 /* EraTableViewCell.swift in Sources */,
 				34E133C61CC91DD7009E3085 /* AppDelegate.swift in Sources */,
+				34E133DA1CC91E53009E3085 /* EraTableViewController.swift in Sources */,
+				34E133F61CCAA00F009E3085 /* DinoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +254,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};

@@ -16,6 +16,71 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        #if DEBUG
+        
+            for family: String in UIFont.familyNames()
+            {
+                print("\(family)")
+                for names: String in UIFont.fontNamesForFamilyName(family)
+                {
+                    print("== \(names)")
+                }
+            }
+            
+        
+        #else
+    
+                //
+    
+        #endif
+    
+        
+        
+        let filePath = NSBundle.mainBundle().pathForResource("dinossauros",ofType:"json")
+        let data =  NSData(contentsOfFile:filePath!)
+        
+        
+        do {
+            let json = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments)
+            
+            if let dinos = json["html"] as? [[String: AnyObject]] {
+                for dino in dinos {
+                    
+                    if let name = dino["name"] as? String {
+                        names.append(name)
+                    }
+                    
+                    if let fileName = dino["fileName"] as? String {
+                        fileNames.append(fileName)
+                    }
+                    
+                    if let alimento = dino["alimentacao"] as? String {
+                        alimentos.append(alimento)
+                    }
+                    
+                    
+                    if let localidade = dino["localidade"] as? String {
+                        localidades.append(localidade)
+                    }
+                    
+                    
+                    
+                }
+            }
+        } catch {
+            print("error serializing JSON: \(error)")
+        }
+        
+        
+        #if DEBUG
+            print(names)
+            print(fileNames)
+        #endif
+            
+
+    
         return true
     }
 

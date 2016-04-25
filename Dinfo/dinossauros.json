@@ -1,0 +1,60 @@
+{
+  "html": [
+    {
+      "name": "Titanosaurus indicus",
+      "fileName": "Titanosaurus indicus",
+      "periodo": "Cretaceo",
+      "alimentacao": "Herbívoro",
+      "localidade": "Madagascar"
+    },
+    {
+      "name": "Plesiosaurus",
+      "fileName": "Plesiosaurus",
+      "periodo": "Cretaceo",
+      "alimentacao": "Carnívoro",
+      "localidade": "Europa e EUA"
+    },
+    {
+      "name": "Montanaceratops cerorhynchos",
+      "fileName": "Montanoceratops cerorhynchus",
+      "periodo": "Cretaceo",
+      "alimentacao": "Herbívoro",
+      "localidade": "América do Norte"
+    },
+    {
+      "name": "Megaraptor",
+      "fileName": "Megaraptor",
+      "periodo": "Cretaceo",
+      "alimentacao": "Carnívoro",
+      "localidade": "América do Sul"
+    },
+    {
+      "name": "Tyrannosaurus rex",
+      "fileName": "t-rex",
+      "periodo": "Jurássico-Cretaceo",
+      "alimentacao": "Carnívoro",
+      "localidade": "América do Norte"
+    },
+    {
+      "name": "Archeopteryx",
+      "fileName": "Archeopteryx",
+      "periodo": "Jurássico",
+      "alimentacao": "Carnívoro",
+      "localidade": "Alemanha"
+    },
+    {
+      "name": "Santanaraptor placidus",
+      "fileName": "santanaraptor placidus",
+      "periodo": "Cretaceo",
+      "alimentacao": "Carnívoro",
+      "localidade": "Bacia do Araripe-Brasil"
+    },
+    {
+      "name": "Ornithocheirus",
+      "fileName": "Ornithocheirus",
+      "periodo": "Cretaceo",
+      "alimentacao": "Carnívoro",
+      "localidade": "Brasil e Europa"
+    }
+  ]
+}
