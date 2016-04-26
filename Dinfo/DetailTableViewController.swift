@@ -10,6 +10,8 @@ import UIKit
 
 class DetailTableViewController: UITableViewController {
 
+    var name: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -70,7 +72,7 @@ class DetailTableViewController: UITableViewController {
 
             cell.dinoImage.image = UIImage(named: "Ornithocheirus")
 
-            cell.dinoDescription.text = "Texto muito grande e legal de quebrar linha sera que funciona?"
+            cell.dinoDescription.text = name
             
         } /* else if indexPath.row == 1 {
             

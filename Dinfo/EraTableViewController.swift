@@ -76,7 +76,7 @@ class EraTableViewController: UITableViewController {
             cell.era.font = UIFont(name: "OpenSans-Bold", size: 16)
             cell.era.text = "CRETÁCEO"
             cell.eraPeriodo.font = UIFont(name: "OpenSans", size: 16)
-            cell.eraPeriodo.text = "Entre 145 milhões e 66 milhões de anos atrás"
+            cell.eraPeriodo.text = "Entre 145 milhões e 65 milhões de anos atrás"
         } else if indexPath.row == 1 {
             cell.eraImage.image = UIImage(named: "thumb_era02")
             cell.eraBgImage.image = UIImage(named: "bg_lista")

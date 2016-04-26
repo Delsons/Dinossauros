@@ -178,7 +178,8 @@ class DinoTableViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if segue.identifier == "dinossaursDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
-                let destinationController = segue.destinationViewController as! UITableViewController
+                let destinationController = segue.destinationViewController as! DetailTableViewController
+                destinationController.name = names[(self.tableView.indexPathForSelectedRow?.row)!]
                 //destinationController.restaurantImage = self.restaurantImages[indexPath.row]
             }
         }
