@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347A96941CD2D3FB00C17FD9 /* Dinossauro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A96931CD2D3FB00C17FD9 /* Dinossauro.swift */; };
+		34812DD81CD1594A00BC3069 /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34812DD71CD1594A00BC3069 /* Toucan.swift */; };
 		34E133C61CC91DD7009E3085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E133C51CC91DD7009E3085 /* AppDelegate.swift */; };
 		34E133CB1CC91DD7009E3085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E133C91CC91DD7009E3085 /* Main.storyboard */; };
 		34E133CD1CC91DD7009E3085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E133CC1CC91DD7009E3085 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		347A96931CD2D3FB00C17FD9 /* Dinossauro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dinossauro.swift; sourceTree = "<group>"; };
+		34812DD71CD1594A00BC3069 /* Toucan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toucan.swift; sourceTree = "<group>"; };
 		34E133C21CC91DD7009E3085 /* Dinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E133C51CC91DD7009E3085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34E133CA1CC91DD7009E3085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 				34E133E81CCA7248009E3085 /* fontes */,
 				34E133C51CC91DD7009E3085 /* AppDelegate.swift */,
 				34E133C91CC91DD7009E3085 /* Main.storyboard */,
+				347A96931CD2D3FB00C17FD9 /* Dinossauro.swift */,
 				34E133D91CC91E53009E3085 /* EraTableViewController.swift */,
 				34E133F51CCAA00F009E3085 /* DinoTableViewController.swift */,
 				34E133F91CCABDB6009E3085 /* DetailTableViewController.swift */,
@@ -96,6 +101,7 @@
 		34E133E81CCA7248009E3085 /* fontes */ = {
 			isa = PBXGroup;
 			children = (
+				34812DD71CD1594A00BC3069 /* Toucan.swift */,
 				34E133E91CCA7248009E3085 /* OpenSans-Bold.ttf */,
 				34E133EA1CCA7248009E3085 /* OpenSans-ExtraBold.ttf */,
 				34E133EB1CCA7248009E3085 /* OpenSans-Italic.ttf */,
@@ -183,9 +189,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E133FA1CCABDB6009E3085 /* DetailTableViewController.swift in Sources */,
+				347A96941CD2D3FB00C17FD9 /* Dinossauro.swift in Sources */,
 				34E133F81CCAAF96009E3085 /* DinoTableViewCell.swift in Sources */,
 				34E133FC1CCABE0D009E3085 /* DetailTableViewCell.swift in Sources */,
 				34E133DC1CC91E6B009E3085 /* EraTableViewCell.swift in Sources */,
+				34812DD81CD1594A00BC3069 /* Toucan.swift in Sources */,
 				34E133C61CC91DD7009E3085 /* AppDelegate.swift in Sources */,
 				34E133DA1CC91E53009E3085 /* EraTableViewController.swift in Sources */,
 				34E133F61CCAA00F009E3085 /* DinoTableViewController.swift in Sources */,
@@ -339,6 +347,7 @@
 				34E133D61CC91DD7009E3085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

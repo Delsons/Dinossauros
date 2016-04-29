@@ -8,13 +8,18 @@
 
 import UIKit
 
+
 class DetailTableViewController: UITableViewController {
 
-    var name: String?
+    //var name: String?
+    //var fileName: String?
+    
+    var dino:Dinossauro?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.navigationController!.navigationBar.setBackgroundImage(UIImage(named:"bg_nav"),
                                                                     forBarMetrics: .Default)
         
@@ -51,6 +56,7 @@ class DetailTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+
         return 1
     }
 
@@ -65,14 +71,46 @@ class DetailTableViewController: UITableViewController {
         
         if indexPath.row == 0 {
             
-            
-
-
             cell.accessoryType = .None
 
-            cell.dinoImage.image = UIImage(named: "Ornithocheirus")
+            //cell.dinoImage.image = UIImage(named: fileName!)
+            
+            // cell.dinoImage.image = UIImage(named: fileName!)
+            
+            //Toucan.Resize.FitMode.Clip
+            //Toucan.Resize.FitMode.Scale
+            
+            //Toucan.Resize.FitMode.Crop
+            
+            
+            //cell.dinoImage.image = Toucan(image: UIImage(named: fileName!)!).resize(CGSize(width: 320, height: 191)).maskWithEllipse().image
 
-            cell.dinoDescription.text = name
+            
+            
+            //FUNCIONANDO
+            
+            //cell.dinoImage.image = Toucan(image: UIImage(named: fileName!)!).resize(CGSize(width: 300, height: 150), fitMode: Toucan.Resize.FitMode.Crop).image
+
+            
+            
+            cell.dinoImage.image = Toucan(image: UIImage(named: dino!.fileNames)!).resize(CGSize(width: cell.dinoImage.bounds.size.width + 50, height: cell.dinoImage.bounds.size.height + 50) , fitMode: Toucan.Resize.FitMode.Scale).image
+
+            
+            
+            
+            
+            
+            //var size: CGSize = CGSize(width: cell.dinoImage.frame.size.width, height: cell.dinoImage.frame.size.height)
+            
+            
+            //cell.dinoImage.image = Toucan(image: UIImage(named: fileName!)!).resize(size: size, fitMode: Toucan.Resize.FitMode)
+            
+
+            
+            
+           // let croppedImage: UIImage = ImageUtil.cropToBounds(UIImage(named: fileName!)!, width: Double(cell.dinoImage.frame.size.width),height: Double(cell.dinoImage.frame.size.height)
+
+            cell.dinoDescription.text = dino!.names
             
         } /* else if indexPath.row == 1 {
             

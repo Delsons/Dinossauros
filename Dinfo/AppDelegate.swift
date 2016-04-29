@@ -48,23 +48,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             if let dinos = json["html"] as? [[String: AnyObject]] {
                 for dino in dinos {
                     
-                    if let name = dino["name"] as? String {
-                        names.append(name)
-                    }
+                    let newDinossauro : Dinossauro = Dinossauro(names:(dino["name"]) as! String, fileNames: (dino["fileName"]) as! String, periodos: (dino["alimentacao"]) as! String, alimentos: (dino["alimentacao"]) as! String, localidades: (dino["localidade"]) as! String)
+
                     
-                    if let fileName = dino["fileName"] as? String {
-                        fileNames.append(fileName)
-                    }
-                    
-                    if let alimento = dino["alimentacao"] as? String {
-                        alimentos.append(alimento)
-                    }
-                    
-                    
-                    if let localidade = dino["localidade"] as? String {
-                        localidades.append(localidade)
-                    }
-                    
+                    dinossaurosArray.append(newDinossauro)
+
                     
                     
                 }
@@ -75,8 +63,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         #if DEBUG
-            print(names)
-            print(fileNames)
+            print(dinossaurosArray)
         #endif
             
 

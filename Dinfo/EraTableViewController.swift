@@ -10,8 +10,6 @@ import UIKit
 
 class EraTableViewController: UITableViewController {
 
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +18,6 @@ class EraTableViewController: UITableViewController {
                                                                    forBarMetrics: .Default)
         
 
-        
         let nav = self.navigationController?.navigationBar
         nav?.tintColor = UIColor.whiteColor()
         nav?.backIndicatorImage = UIImage(named:"back")
